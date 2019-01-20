@@ -1,4 +1,4 @@
-/* Variables
+﻿/* Variables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
   --c-black: #000;
@@ -157,4 +157,7 @@ header, footer { padding: 16px 0; }
 @media only screen and (max-width: 500px) {
   footer { font-size: 14px; }
   .theme-btns { display: none; }
+}
+body {
+    margin-top: 5%;
 }
