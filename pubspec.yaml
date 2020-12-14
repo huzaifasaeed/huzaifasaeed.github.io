@@ -1,0 +1,21 @@
+name: portfolio
+description: A portfolio made using flutter
+
+environment:
+  sdk: ">=2.9.0 <3.0.0"
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.0+2
+  url_launcher: ^5.4.2
+  google_fonts:
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/
+  fonts:
+  - family: GoogleSansRegular
+    fonts:
+      - asset: assets/GoogleSansRegular.ttf
