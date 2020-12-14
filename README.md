@@ -1,4 +1,4 @@
-# :huzaifasaeed: portfolio
+# :man_cartwheeling: portfolio
 
 This repository contains code for my [portfolio website](https://huzaifasaeed.github.io/) which is made using flutter. 
 
