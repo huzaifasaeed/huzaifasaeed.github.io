@@ -51,13 +51,6 @@
 	<div class="loader"></div>
   </div>
   <script src="main.dart.js" type="application/javascript"></script>
-
-	<!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
 </body>
 <!--Start of Tawk.to Script-->
 <!-- <script type="text/javascript">
@@ -72,27 +65,20 @@
   })();
   </script> -->
   <!--End of Tawk.to Script-->
-	 <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "286768921696679");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v18.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+	            <script type="application/javascript">
+                window.tiledeskSettings= 
+                {
+                    projectid: "654aca49805346001af23117"
+                };
+                (function(d, s, id) { 
+                    var w=window; var d=document; var i=function(){i.c(arguments);};
+                    i.q=[]; i.c=function(args){i.q.push(args);}; w.Tiledesk=i;                
+                    var js, fjs=d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js=d.createElement(s); 
+                    js.id=id; js.async=true; js.src="https://widget.tiledesk.com/v5/launch.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document,'script','tiledesk-jssdk'));
+            </script>
+          
 </html>
